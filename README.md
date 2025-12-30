@@ -11,22 +11,17 @@ Open files or jump to locations in an existing Neovim instance via `nvr` (neovim
 
 ## Install
 
-Clone this repo, then run the installer (defaults to symlink):
+Clone this repo, then run the installer:
 
 ```bash
 ./install.sh
-# or copy instead of symlink
-# ./install.sh --copy
 ```
 
 Manual install (if you prefer):
 
 ```bash
 mkdir -p ~/.codex/skills
-# symlink (recommended for dev)
-ln -s /path/to/this/repo/.codex/skills/nvim-jump ~/.codex/skills/nvim-jump
-# or copy
-# cp -r /path/to/this/repo/.codex/skills/nvim-jump ~/.codex/skills/
+cp -r /path/to/this/repo/.codex/skills/nvim-jump ~/.codex/skills/
 ```
 
 ## Sandbox note
