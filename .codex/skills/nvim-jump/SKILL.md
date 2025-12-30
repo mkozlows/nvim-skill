@@ -25,3 +25,4 @@ description: Open or jump to a file location in an existing Neovim instance via 
 
 - Require `nvr` (neovim-remote) available in PATH.
 - Ensure Neovim is running with its server name matching `$NVIM_SERVER` (or `/tmp/nvimsocket`).
+- Always run the scripts with escalated permissions so the host Neovim socket is reachable outside the sandbox.
