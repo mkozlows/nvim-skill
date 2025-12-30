@@ -7,7 +7,7 @@ description: Open or jump to a file location in an existing Neovim instance via 
 
 ## Quick start
 
-- Run `scripts/open.sh <abs-path> <line> <col>` to open a file and jump to a cursor location.
+- Run `scripts/open.sh <abs-path> <line> <col>` to open a file in a new tab and jump to a cursor location.
 - Run `scripts/quickfix.sh <qf-file>` after writing a quickfix file with `path:line:col: message` lines.
 
 ## Inputs and defaults
